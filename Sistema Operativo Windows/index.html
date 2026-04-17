@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de Carpetas - CFP N 8</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        .folder-structure {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin: 5px 0;
+            position: relative;
+        }
+        /* Iconos de carpeta simulados */
+        li::before {
+            content: "📁";
+            margin-right: 8px;
+        }
+        .root {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.2em;
+        }
+        .area {
+            font-weight: bold;
+            color: #2980b9;
+            margin-left: 20px;
+        }
+        .curso {
+            color: #16a085;
+            margin-left: 40px;
+        }
+        .turno {
+            color: #7f8c8d;
+            margin-left: 60px;
+            font-style: italic;
+        }
+        .turno::before {
+            content: "📂"; /* Icono diferente para subcarpetas finales */
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="folder-structure">
+        <h1>Organización de Directorios</h1>
+        <p>Ubicación: <strong>Documentos /</strong></p>
+        <hr>
+        
+        <ul>
+            <li class="root">Cursos del CFP N 8
+                <ul>
+                    <li class="area">Área Informática
+                        <ul>
+                            <li class="curso">Informática Básica
+                                <ul>
+                                    <li class="turno">Turno Mañana</li>
+                                    <li class="turno">Turno Tarde</li>
+                                    <li class="turno">Turno Noche</li>
+                                </ul>
+                            </li>
+                            <li class="curso">Modelado 3D
+                                <ul>
+                                    <li class="turno">Turno Mañana</li>
+                                    <li class="turno">Turno Tarde</li>
+                                    <li class="turno">Turno Noche</li>
+                                </ul>
+                            </li>
+                            <li class="curso">Diseño Asistido por Computadoras (CAD)
+                                <ul>
+                                    <li class="turno">Turno Mañana</li>
+                                    <li class="turno">Turno Tarde</li>
+                                    <li class="turno">Turno Noche</li>
+                                </ul>
+                            </li>
+                            <li class="curso">Taller de Microemprendimientos
+                                <ul>
+                                    <li class="turno">Turno Mañana</li>
+                                    <li class="turno">Turno Tarde</li>
+                                    <li class="turno">Turno Noche</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="area">Área Automatización Industrial
+                        <ul>
+                            <li class="curso">Auxiliar en Electrónica Analógica y Digital
+                                <ul>
+                                    <li class="turno">Turno Mañana</li>
+                                    <li class="turno">Turno Tarde</li>
+                                    <li class="turno">Turno Noche</li>
+                                </ul>
+                            </li>
+                            <li class="curso">Auxiliar en Automatización Industrial (Hidráulica, Neumática y PLC)
+                                <ul>
+                                    <li class="turno">Turno Mañana</li>
+                                    <li class="turno">Turno Tarde</li>
+                                    <li class="turno">Turno Noche</li>
+                                </ul>
+                            </li>
+                            <li class="curso">Programador de Sistemas Robóticos
+                                <ul>
+                                    <li class="turno">Turno Mañana</li>
+                                    <li class="turno">Turno Tarde</li>
+                                    <li class="turno">Turno Noche</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
