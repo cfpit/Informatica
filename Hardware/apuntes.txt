@@ -1,0 +1,24 @@
+Hardware
+	--> Procesador
+		--> Intel
+			-> Core i3
+			-> Core i5
+			-> Core i7
+		--> AMD
+			-> Ryzen 3
+			-> Ryzen 5
+			-> Ryzen 7
+
+	--> Memoria RAM: Kingston, Verbatim, etc.
+		--> 4 GB
+		--> 8 GB
+		--> 16 GB
+		--> 32 GB
+
+	--> Disco de Almacenamiento
+		--> HDD: disco mecanico
+		--> SSD: disco de estado solido
+			--> 128 GB
+			--> 256 GB
+			--> 512 GB
+			--> 1 TB
